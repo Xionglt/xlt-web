@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- css为index.css -->
+    
+    
+</head>
+<body>
+  
+    <div id="header" >
+        <div  class="inner">
+          <div class="container_2_camping_text">财大</div>
+        </div>
+    </div>
+    <div id="nav" >
+        <div  class="inner" style="text-align: center;font-weight: bold;font-style: italic;">
+          <p>青山隐隐水迢迢,
+          秋尽江南草未凋。</p>
+          <p>二十四桥明月夜,
+          玉人何处教吹箫。</p>
+        </div>
+    </div>
+    <div id="container_1" >
+      
+        <div  class="inner">
+          
+            <div id="container_1_1">
+              <div style="text-align: center;">
+                <label for="image-select-1">选想看的照片:</label>
+              
+                <select id="image-select-1" name="image">
+                  <option value="./images/校园1.jpg" selected>Image 1</option>
+                  <option value="./images/校园13.jpg">Image 2</option>
+                 
+                </select>
+                <div id="container_2_camping">
+                  <div class="container_2_camping_text">樱花</div>
+              </div>
+                
+              </div>
+              </form>
+              <img id="image-1" src="./images/校园1.jpg" alt="Image 1" width="555px" height="251px">
+            </div>
+       
+        
+            <div id="container_1_2">
+              <div style="text-align: center;">
+               <label for="image-select-2">选想看的照片:</label>
+               <select id="image-select-2" name="Image">
+                <option value="./images/校园3.jpg" selected>Image 1</option>
+                <option value="./images/校园4.jpg">Image 2</option>
+                <option value="./images/校园5.jpg">Image 3</option>
+                <option value="./images/校园11.jpg">Image 4</option>
+                
+                
+               </select>
+               <div id="container_2_camping"><div class="container_2_camping_text">夕阳西下</div></div>
+               
+            </div>
+            </form>
+            <img id="Image-2" src="./images/校园3.jpg" alt="Image 1" width="445px" height="251px">
+
+            
+          </div>
+        </div>
+    </div>
+    
+    <div id="container_2" >
+        <div  class="inner">
+            
+        <!-- 第一块点击会看到杭州景色日志 -->
+        <div id="container_2_1">
+          
+          
+            <div id="container_2_camping">
+              <div class="container_2_camping_text">湖</div>
+            </div>
+            <!-- 图片轮换部分，用到js -->
+            <div id="slideshow_1" class="slideshow">
+              <img src="./images/校园2.jpg" , class="active">
+              <img src="./images/校园7.jpg" >
+              <img src="./images/校园8.jpg" >
+              <img src="./images/校园9.jpg" >
+              <img src="./images/校园12.jpg" >
+              
+             
+              
+              <!-- 添加更多图片 -->
+            </div>
+          
+           
+        
+          </div>
+          
+            
+            <!-- 第二块点击会看到凤凰景色 -->
+            
+            <div id="container_2_2">
+              <div id="container_2_camping">
+                <div class="container_2_camping_text">迎着阳光</div>
+              </div>
+              <div id="slideshow_2" class="slideshow">
+                <img src="./images/校园6.jpg" , class="active">
+                <img src="./images/校园10.jpg" >
+               
+                <!-- 添加更多图片 -->
+              </div>
+             
+         
+              
+            </div>
+            
+            <!-- 第三块点击会看到南宁景色 -->
+            <div id="container_2_3">
+              <div id="container_2_camping">
+                <div class="container_2_camping_text">寻常日子</div>
+              </div>
+              <div id="slideshow_3" class="slideshow">
+                <img src="./images/校园11.jpg" , class="active">
+                <img src="./images/猫咪1.jpg" >
+                <img src="./images/猫咪2.jpg" >
+                <img src="./images/猫咪3.jpg" >
+                
+                <!-- 添加更多图片 -->
+              </div>
+            
+            
+           
+            </div>
+            
+        </div>
+        
+    </div>
+    <!-- 引用js -->
+    <script src="./图片每秒轮换.js"></script>
+</body>
+</html>

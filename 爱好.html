@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- css为index.css -->
+    
+    
+</head>
+<body>
+  
+    <div id="header" >
+        <div  class="inner">
+          <div class="container_2_camping_text">简单的爱好</div>
+        </div>
+    </div>
+    <div id="nav" >
+        <div  class="inner" style="text-align: center;font-weight: bold;">
+
+          真的我，大概就是喜欢睡懒觉.打游戏.没事就自己发呆东想西想，每次去报刊都蹭杂志看的那种，
+          你会觉得这种人生有什么意思么？要是我看到这种人我都觉得没意思，可我就是这种人。自己是棵草自己知道，
+          人家夸你是棵参天大树你也不能信对不对？
+          <p>或许是不知梦的缘故，流离之人追逐幻影。</p>
+          
+        </div>
+    </div>
+    <div id="container_1" >
+      
+        <div  class="inner">
+          
+            <div id="container_1_1">
+              <div style="text-align: center;">
+                <label for="image-select-1">选想看的照片:</label>
+              
+                <select id="image-select-1" name="image">
+                  <option value="./images/爱好1.jpg" selected>Image 1</option>
+                  <option value="./images/爱好2.jpg">Image 2</option>
+                  <option value="./images/爱好3.jpg">Image 3</option>
+                  <option value="./images/爱好4.jpg">Image 4</option>
+                  <option value="./images/爱好5.jpg">Image 5</option>
+                  <option value="./images/爱好6.jpg">Image 6</option>
+                  <option value="./images/爱好7.jpg">Image 7</option>
+                  <option value="./images/爱好8.jpg">Image 8</option>
+                  <option value="./images/爱好9.jpg">Image 9</option>
+                  <option value="./images/爱好10.jpg">Image 10</option>
+                  <option value="./images/爱好11.jpg">Image 11</option>
+                  <option value="./images/爱好12.jpg">Image 12</option>
+                 
+                </select>
+                <div id="container_2_camping">
+                  <div class="container_2_camping_text">喜欢的IP角色</div>
+              </div>
+                
+              </div>
+              </form>
+              <img id="image-1" src="./images/爱好1.jpg" alt="Image 1" width="555px" height="251px">
+            </div>
+       
+        
+            <div id="container_1_2">
+              <div style="text-align: center;">
+               <label for="image-select-2">选想看的照片:</label>
+               <select id="image-select-2" name="Image">
+                <option value="./images/动漫1.jpg" selected>Image 1</option>
+                <option value="./images/动漫2.jpg">Image 2</option>
+                <option value="./images/动漫3.jpg">Image 3</option>
+                <option value="./images/动漫4.jpg">Image 4</option>
+                <option value="./images/动漫5.jpg">Image 5</option>
+                <option value="./images/动漫6.jpg">Image 6</option>
+                <option value="./images/动漫7.jpg">Image 7</option>
+                
+               </select>
+               <div id="container_2_camping"><div class="container_2_camping_text">动漫</div></div>
+               
+            </div>
+            </form>
+            <img id="Image-2" src="./images/动漫1.jpg" alt="Image 1" width="445px" height="251px">
+
+            
+          </div>
+        </div>
+    </div>
+    
+    <div id="container_2" >
+        <div  class="inner">
+            
+        <!-- 第一块点击会看到杭州景色日志 -->
+        <div id="container_2_1">
+          
+          
+            <div id="container_2_camping">
+              <div class="container_2_camping_text">周边</div>
+            </div>
+            <!-- 图片轮换部分，用到js -->
+            <div id="slideshow_1" class="slideshow">
+              <img src="./images/周边1.jpg" , class="active">
+              <img src="./images/周边2.jpg" >
+              <img src="./images/周边3.jpg" >
+              <img src="./images/周边4.jpg" >
+              
+              
+              <!-- 添加更多图片 -->
+            </div>
+          
+           
+        
+          </div>
+          
+            
+            <!-- 第二块点击会看到凤凰景色 -->
+            
+            <div id="container_2_2">
+              <div id="container_2_camping">
+                <div class="container_2_camping_text">画画</div>
+              </div>
+              <div id="slideshow_2" class="slideshow">
+                <img src="./images/画画1.jpg" , class="active">
+                <img src="./images/画画2.jpg" >
+                
+                <!-- 添加更多图片 -->
+              </div>
+             
+         
+              
+            </div>
+            
+            <!-- 第三块点击会看到南宁景色 -->
+            <div id="container_2_3">
+              <div id="container_2_camping">
+                <div class="container_2_camping_text">小说</div>
+              </div>
+              <div id="slideshow_3" class="slideshow">
+                <img src="./images/小说1.jpg" , class="active">
+                <img src="./images/小说2.jpg" >
+                <img src="./images/小说3.jpg" >
+                <img src="./images/小说4.jpg" >
+                <img src="./images/小说5.jpg" >
+                
+                <!-- 添加更多图片 -->
+              </div>
+            
+            
+           
+            </div>
+            
+        </div>
+       
+    </div>
+    <!-- 引用js -->
+    <script src="./图片每秒轮换.js"></script>
+</body>
+</html>
